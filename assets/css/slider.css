@@ -1,20 +1,30 @@
 .custom-overflox {
   overflow: hidden !important;
 }
-
 .customer-logos {
   display: flex;
   overflow-x: hidden !important;
-  width: 100%;
+  width: 100% !important;
   position: relative;
+  border-top: 1px solid silver; 
+  border-bottom: 1px solid silver;
 }
 
 .customer-logos .slide {
-  display: inline-block;
+  display: block;
   margin-right: 20px;
-  animation: slideAnimation 25s linear infinite;
-  width: 300px !important;
+  animation: slideAnimation 25s linear infinite; 
 }
+.customer-logos .slide >img{ 
+  width: 200px !important;  
+  height: 100px !important;
+  margin: 0px 40px ;
+  padding: 10px 20px;
+  object-fit: contain;
+  border-right: 1px solid;
+}
+
+/* partnerr logo slider */
 
 @keyframes slideAnimation {
   from {
@@ -25,8 +35,6 @@
     transform: translateX(-100%);
   }
 }
-
-
 /* ================ */
 
 .carousel-item img {
@@ -61,17 +69,67 @@
 
 .slider-container>.slider .card {
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 30px 20px 30px 0px;
   padding: 15px;
   margin: 0px 20px !important;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  /* height: 415px !important; */
+  height: 355px !important;
 }
+.regular-college-slider .card button{margin-bottom: 25px !important;}
 
 .slider-container>.slider .card img {
   width: 100%;
   height: 150px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 30px 20px 30px 0px;
   margin-bottom: 20px;
+}
+
+
+
+/* youtube video box  */
+.dtr-servicebox-video {
+  position: relative;
+  width: 100%;  
+  max-height: 100%;
+  cursor: pointer; 
+  overflow: hidden;
+}
+ .dtr-servicebox-video img{
+  width: 100%;
+  height: 215px;
+ }
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('https://img.icons8.com/color/96/youtube-play.png') no-repeat center;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+.dtr-servicebox-video iframe {
+  width: 100%;
+  height: 215px;
+}
+
+/* top-recruiter */
+.top-recruiter-container {
+  width: 100%;
+  padding: 20px;
+}
+.top-recruiter{
+  margin: 10px;
+}
+.top-recruiter img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
 }

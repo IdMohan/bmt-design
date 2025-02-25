@@ -254,7 +254,11 @@ input::placeholder{color: #000000d8 !important;}
 .dtr-img-feature i { position: relative; font-size: 48px; line-height: 48px; z-index: 9; }
 .dtr-img-feature-heading { margin-bottom: 20px; }
 .dtr-styled-heading { margin-bottom: 40px; }
-.dtr-styled-heading h2 { font-size: 47px; margin-bottom: 20px; }
+
+/* .dtr-styled-heading h2 { font-size: 47px; margin-bottom: 20px; } */
+.dtr-styled-heading h2 { font-size: 35px; margin-bottom: 10px; }
+
+
 .dtr-styled-heading p { margin: 0; padding: 0; }
 .dtr-stars { display: block; letter-spacing: 5px; }
 .dtr-stars-5:after, .dtr-stars-4:after { font-family: 'icomoon'; content: "\ec0e\ec0e\ec0e\ec0e\ec0e"; }
@@ -323,7 +327,7 @@ input::placeholder{color: #000000d8 !important;}
 .dtr-servicebox-number { position: absolute; right: 20px; top: 20px; font-size: 100px; line-height: 100px; font-weight: bold; }
 .dtr-service-heading { margin-bottom: 20px; }
 /*===== blog items =====*/
-.dtr-post-img { position: relative; border-width: 5px; border-style: solid; border-radius: 8px; margin-bottom: 30px; }
+.dtr-post-img { position: relative; border-width: 5px; border-style: ridge; border-radius: 8px; margin-bottom: 30px; }
 .dtr-post-img img { border-radius: 4px; }
 .dtr-blog-date { position: absolute; bottom: 15px; right: 15px; display: inline-block; padding: 12px 20px 10px 20px; text-align: center; text-transform: uppercase; border-radius: 8px; font-size: 0.765em; line-height: 1.2em; font-weight: 700; }
 .dtr-blog-item h5 { font-size: 24px; line-height: 30px; }
@@ -334,7 +338,11 @@ input::placeholder{color: #000000d8 !important;}
 .dtr-blog-meta .dtr-blog-category::before { font-family: 'icomoon'; content: "\ea60"; vertical-align: middle; margin-right: 10px; }
 /*===== cta box =====*/
 .dtr-cta-box { overflow: hidden; display: flex; border-radius: 8px; }
-.dtr-cta-box-left { width: 40%; background-repeat: no-repeat; background-position: center center; background-size: auto; }
+
+/* .dtr-cta-box-left { width: 40%; background-repeat: no-repeat; background-position: center center; background-size: auto; } */
+.dtr-cta-box-left { width: 50%; height: 300px; background-repeat: no-repeat; background-position: center center; background-size: auto; }
+
+
 .dtr-cta-box-right { position: relative; box-sizing:border-box; padding: 50px 50px 50px 70px; }
 .dtr-cta-box { font-size: 22px; line-height: 32px; }
 .dtr-cta-title { font-size: 32px; line-height: 42px; font-weight: bold; }
@@ -504,5 +512,5 @@ opacity:0
 
 
 .custom-bg-light{
-    background-color: #ffffff5a;
+    background-color: #ffffffd4;
 }

@@ -3193,17 +3193,17 @@ transform:translateY(-5px)
  -webkit-transform: scale(0.2, 0.2);
  transform: scale(0.2, 0.2);
  opacity: 0;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ -ms-filter: "";
 }
  50% {
  opacity: 0.9;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+ -ms-filter: "";
 }
  100% {
  -webkit-transform: scale(0.9, 0.9);
  transform: scale(0.9, 0.9);
  opacity: 0;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ -ms-filter: "";
 }
 }
  @keyframes video-pulse {
@@ -3211,17 +3211,17 @@ transform:translateY(-5px)
  -webkit-transform: scale(0.2, 0.2);
  transform: scale(0.2, 0.2);
  opacity: 0;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ -ms-filter: "";
 }
  50% {
  opacity: 0.9;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+ -ms-filter: "";
 }
  100% {
  -webkit-transform: scale(0.9, 0.9);
  transform: scale(0.9, 0.9);
  opacity: 0;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ -ms-filter: "";
 }
 }
 
