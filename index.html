@@ -3,46 +3,36 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Boostmytalent Landing Page</title>
-    <meta name="adarsh"
-        content="Boostmytalent Landing Page">
-    <meta name="description"
-        content="Boostmytalent Landing Page">
-    <meta name="keywords"
-        content="Boostmytalent Landing Page">
+    <meta name="adarsh" content="Boostmytalent Landing Page">
+    <meta name="description" content="Boostmytalent Landing Page">
+    <meta name="keywords" content="Boostmytalent Landing Page">
 
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
 
 
-    <link href="assets/img/icons/favicon.ico"
-        rel="shortcut icon">
+
+    <link href="assets/img/icons/favicon.ico" rel="shortcut icon">
 
     <!-- CSS FILES -->
-    <link rel="stylesheet"
-        href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet"
-        href="assets/fonts/iconfonts.css">
-    <link rel="stylesheet"
-        href="assets/css/plugins.css">
-    <link rel="stylesheet"
-        href="assets/css/style.css">
-    <link rel="stylesheet"
-        href="assets/css/custom-space.css">
-    <link rel="stylesheet"
-        href="assets/css/responsive.css">
-    <link rel="stylesheet"
-        href="assets/css/color.css">
-    <link rel="stylesheet"
-        href="assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/iconfonts.css">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom-space.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+    
 </head>
 
 <body>
@@ -65,8 +55,7 @@
         </div>
 
 
-        <header id="dtr-header-global"
-            class="fixed-top trans-header">
+        <header id="dtr-header-global" class="fixed-top trans-header">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="dtr-header-left">
@@ -76,10 +65,7 @@
                             href="#home"><img src="assets/img/logo/logo.webp" style="width: 180px;" alt="Boostmytalent Logo Main dark"></a>
                     </div>
                     <div class="dtr-header-right">
-                        <a href="javascript:void();"
-                            data-toggle="modal"
-                            data-target="#myModal"
-                            class="dtr-btn btn-theme1 dtr-btn-right-icon dtr-scroll-link dtr-ml-30">
+                        <a href="javascript:void();" data-toggle="modal" data-target="#myModal" class="dtr-btn btn-theme1 dtr-btn-right-icon dtr-scroll-link dtr-ml-30">
                             Get Expert Advice <i class="icon-phone"></i>
                         </a>
                     </div>
@@ -97,7 +83,7 @@
                     <div class="container">
                         <div class="row dtr-pb-100">
                             <div class="col-12 col-md-7">
-                                <!-- <h1 class="color-white pt-5">Transform Your Future with the Right MBA — <br> Let Us Guide You! </h1> -->
+                                <!-- <span class="color-white pt-5">Transform Your Future with the Right MBA — <br> Let Us Guide You! </span> -->
                                 <h1 class="color-white pt-5">Find the Perfect MBA Colleges in Delhi Without the Hassle </h1>
                                 <p class="color-white">From admissions and scholarships to placements, we provide expert
                                     guidance every step of the way.</p>
@@ -130,45 +116,41 @@
 
                                             <div class="dtr-form-column">
                                                 <p class="dtr-form-field">
-                                                    <input name="city-name" class="required" type="text"  placeholder="City Name">
+                                                    <input name="city-name" class="required" type="text" placeholder="City Name">
                                                 </p>
                                             </div>
 
                                             <div class="dtr-form-column">
                                                 <p class="dtr-form-field">
-                                                    <input name="city-name" class="required" type="text"  placeholder="I'm Looking for">
+                                                    <select class="dtr-form-field required">
+                                                        <option>Select*</option>
+                                                        <option value="mba">MBA</option>
+                                                        <option value="pgdm">PGDM</option>
+                                                        <option value="online-mba">Online MBA</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
                                                 </p>
                                             </div> 
                                         </div>
 
                                         <p class="dtr-form-field">
-                                            <textarea name="subject"  type="text" placeholder="Message"> </textarea>
-                                        </p>
-                                        <style>
-                                            textarea::placeholder{color: #000 Im !important;}
-                                        </style>
-                                        <!-- form two columns ends -->
-
-
+                                            <input name="message" class="dtr-p-20" type="text" placeholder="Message">
+                                        </p>   
                                         <p class="text-center">
-                                            <button class="dtr-btn btn-theme1 w-100"
-                                                type="submit"> Submit<i class="icon-arrow-right-circle dtr-ml-10"></i>
+                                            <button class="dtr-btn btn-theme1 w-100" type="submit"> Submit<i class="icon-arrow-right-circle dtr-ml-10"></i>
                                             </button>
                                         </p>
                                         <div class="checkbox text-center"> 
-                                                <span class="small"> <strong>I agree to receive information regarding my
-                                                        submitted enquiry  </strong> </span> 
+                                            <span class="small"><strong>I agree to receive information regarding my submitted enquiry</strong></span> 
                                         </div>
                                         <div id="result"></div>
                                     </form>
                                 </div>
-                            </div>
-                            <!-- column 2 ends -->
+                            </div> 
                         </div>
                     </div>
                 </div>
-            </section>
-
+            </section> 
 
 
 
@@ -320,7 +302,7 @@
                     <div class="dtr-overlay dtr-overlay-blue"></div>
                     <div class="container dtr-overlay-content">
                         <div class="dtr-styled-heading text-center">
-                            <h4 class="color-white">Top Recruiters @BoostMyTalent Colleges</h4>
+                            <h3 class="color-white">Top Recruiters @BoostMyTalent Colleges</h3>
                         </div>
                         <div class="top-recruiter-container">
                             <div class="top-recruiter-slider">
@@ -429,140 +411,508 @@
             <div class="dtr-section dtr-pb-40 dtr-pt-40 bg_background">
                 <div class="container">
                     <div class="dtr-styled-heading text-center">
-                        <h2> Elite B-Schools with Guaranteed Placements</h2>
+                        <!--<span> Elite B-Schools with Guaranteed Placements</span>-->
+                        <h2> Top MBA Colleges in Delhi - Compare & Apply Today </h2>
+                        <p>Expert counseling, Top-tier Colleges & Scholarships - Start your MBA journey today!</p>
                     </div>
                     <div class="slider-container">
-                        <div class="regular-college-slider slider text-start">
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/5/gims-gniot-institute-noida-campus.webp"
-                                        alt="GNIOT Institute of Management (GIMS)">
-                                    <h5>GNIOT Institute of Management (GIMS)</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Greater Noida </p> 
+                        <div class="row regular-college-slider slider dtr-p-20">
+                            <div class="col-md-4">
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/5/gims-gniot-institute-noida-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/5/gims-gniot-institute-noida-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        GNIOT Institute of Management
                                     </div>
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/19/noida-university-greater-noida-campus.webp"
-                                        alt="Noida International University (NIU)">
-                                    <h5>Noida International University (NIU)</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Greater Noida </p> 
+                                    <div class="card-text">
+                                       University Type: Private, Regular
                                     </div>
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/24/jaipuria-college-ghaziabad-campus.webp"
-                                        alt="Jaipuria School of Business (JSB)">
-                                    <h5>Jaipuria school of business (JSB)</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Ghaziabad</p> 
+                                    <div class="card-text">
+                                        Estd: 2000
                                     </div>
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
+                                    <div class="card-text">
+                                        Location: Greater Noida, Uttar Pradesh
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
                             </div>
                             <!--  -->
-
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/13/isbs-gurgaon-campus.webp"
-                                        alt="International School of Business Studies (ISBS)">
-                                    <h5>International School of Business Studies (ISBS) </h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Gurgaon </p> 
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/19/noida-university-greater-noida-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/19/noida-university-greater-noida-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        Noida International University
                                     </div>
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <div class="card">
-                                    <img src="https://www.boostmytalent.com/upload/university/12/sukhmani-college-delhi-campus.webp"
-                                        alt="Sri Sukhmani Institute of Management (SSIM)">
-                                    <h5>Sri Sukhmani Institute of Management (SSIM)</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Delhi </p> 
+                                    <div class="card-text">
+                                    University Type: Private, Regular
                                     </div>
-                                    <button data-toggle="modal"
-                                        data-target="#myModal"
-                                        class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
+                                    <div class="card-text">
+                                        Estd: 2010
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Greater Noida, Uttar Pradesh
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
                             </div>
-                        </div>
-                    </div>
-
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/24/jaipuria-college-ghaziabad-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/24/jaipuria-college-ghaziabad-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        (JSB) Jaipuria school of business 
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 2008
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Ghaziabad, Uttar Pradesh
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/13/isbs-gurgaon-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/13/isbs-gurgaon-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        International School of Business Studies
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 2008
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Gurgaon, Haryana
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/12/sukhmani-college-delhi-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/12/sukhmani-college-delhi-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        Sri Sukhmani Institute of Management
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 2009
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Delhi
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/11/fiib-delhi-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/11/fiib-delhi-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        Fortune Institute of International Business
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 1995
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Delhi
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/234/asm-apeejay-school-of-management-dwarka-delhi-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/234/asm-apeejay-school-of-management-dwarka-delhi-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        Apeejay School of Management
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 1993
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Delhi
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/4/gl-bajaj-institute-greater-noida-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/4/gl-bajaj-institute-greater-noida-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        GL Bajaj Institute of Management and Research
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 2007
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Greater Noida , Uttar Pradesh
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/20/maharaja-agrasen-business-school-rohini-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/20/maharaja-agrasen-business-school-rohini-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        Maharaja Agrasen Business School
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 2023
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Rohini, Delhi
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>
+                            <!--  -->
+                            <div class="col-md-4"> 
+                                <div class="card-sl">
+                                    <div class="card-image">
+                                        <img src="https://www.boostmytalent.com/upload/university/7/ndim-college-delhi-campus.webp" />
+                                    </div>  
+                                        <span class="card-action">
+                                            <img src="https://www.boostmytalent.com/upload/university/7/ndim-college-delhi-logo.webp" alt="">
+                                        </span> 
+                                    <div class="card-heading">
+                                        New Delhi Institute of Management
+                                    </div>
+                                    <div class="card-text">
+                                    University Type: Private, Regular
+                                    </div>
+                                    <div class="card-text">
+                                        Estd: 1992
+                                    </div>
+                                    <div class="card-text">
+                                        Location: Delhi
+                                    </div>
+                                    <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                                </div> 
+                            </div>  
+                        </div> 
+                    </div> 
                 </div>
             </div>
 
             <!--  -->
 
+            <!-- online college -->
             <div class="dtr-section dtr-pb-50 dtr-pt-40">
                 <div class="container">
                     <div class="dtr-styled-heading text-center">
-                        <h2> Online MBA Recognized by Top Employers </h2>
+                        <!--<span> Online MBA Recognized by Top Employers </span>-->
+                        <h2> Fast-Track Your MBA Admission in Delhi's Top Colleges </h2>
+                        <p>Hassle-free MBA admissions with Expert Counseling & Best Scholarship Options!</p>
                     </div>
-                    <div class="slider-container">
-                        <div class="online-college-slider slider text-start">
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/92/lpu-online-banner.webp"
-                                        alt="(LPU) Lovely Professional university Online">
-                                    <h5>Lovely Professional University (LPU) </h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Phagwara </p> 
-                                    </div> 
-                                <button data-toggle="modal" data-target="#myModal" class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/132/manipal-online-jaipur-banner.webp"
-                                        alt="Manipal University online">
-                                    <h5>Manipal University</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Jaipur </p> 
-                                    </div> 
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/127/sikkim-manipal-university-online-banner.webp"
-                                        alt="Sikkim Manipal University Online">
-                                    <h5>Sikkim Manipal University</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Gangtok</p> 
-                                    </div>
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <!--  -->
 
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/65/amity-online-banner.webp"
-                                        alt="Amity University Online">
-                                    <h5>Amity University Online </h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Greater Noida </p> 
-                                    </div>
-                                <button data-toggle="modal"
-                                    data-target="#myModal"
-                                    class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
-                            </div>
-                            <div class="card"> 
-                                    <img src="https://www.boostmytalent.com/upload/university/167/jain-university-online-banner.webp"
-                                        alt="Jain University Online">
-                                    <h5>Jain University Online</h5>
-                                    <div class="dtr-ml-10">
-                                        <p><i class="icon-map-marked"></i> Bangalore, Karnataka </p>  
-                                    </div>
-                                    <button data-toggle="modal"
-                                        data-target="#myModal"
-                                        class="small p-1 btn-theme1 dtr-scroll-link dtr-mt-20">Enroll Now</button>
+                    <div class="row online-college-slider slider dtr-p-20">
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/92/lpu-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/92/lpu-online-logo.webp" alt="">
+                                    </span> 
+                                <div class="card-heading">
+                                    Lovely Professional University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 2005
+                                </div>
+                                <div class="card-text">
+                                    Location: Phagwara, Punjab
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
                             </div>
                         </div>
-                    </div>
-
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/132/manipal-online-jaipur-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/132/manipal-online-jaipur-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Manipal University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 2011
+                                </div>
+                                <div class="card-text">
+                                    Location: Jaipur, Rajasthan
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/127/sikkim-manipal-university-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/127/sikkim-manipal-university-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Sikkim Manipal University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 1995
+                                </div>
+                                <div class="card-text">
+                                    Location: Gangtok, Sikkim
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/65/amity-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/65/amity-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Amity University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 2005
+                                </div>
+                                <div class="card-text">
+                                    Location: Greater Noida, Uttar Pradesh
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/167/jain-university-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/167/jain-university-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Jain University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 1990
+                                </div>
+                                <div class="card-text">
+                                    Location: Bangalore, Karnataka
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/58/chandigarh-university-cu-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/58/chandigarh-university-cu-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Chandigarh University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 2020
+                                </div>
+                                <div class="card-text">
+                                    Location: Chandigarh
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/90/sharda-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/90/sharda-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Sharda University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 1996
+                                </div>
+                                <div class="card-text">
+                                    Location: Greater Noida, Uttar Pradesh
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/124/uttaranchal-university-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/124/uttaranchal-university-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Uttaranchal University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 2013
+                                </div>
+                                <div class="card-text">
+                                    Location: Dehradun, Uttarakhand
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/120/mody-university-online-mba-bca-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/120/mody-university-online-mba-bca-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Mody University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 1998
+                                </div>
+                                <div class="card-text">
+                                    Location: Narodara Rural, Rajasthan
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-4">
+                            <div class="card-sl">
+                                <div class="card-image">
+                                    <img src="https://www.boostmytalent.com/upload/university/135/parul-university-online-banner.webp" />
+                                </div>  
+                                    <span class="card-action">
+                                        <img src="https://www.boostmytalent.com/upload/university/135/parul-university-online-logo.webp" alt="" />
+                                    </span> 
+                                <div class="card-heading">
+                                    Parul University 
+                                </div>
+                                <div class="card-text">
+                                   University Type: Private, Online
+                                </div>
+                                <div class="card-text">
+                                    Estd: 2015
+                                </div>
+                                <div class="card-text">
+                                    Location: Vadodara , Gujarat
+                                </div>
+                                <button data-toggle="modal" data-target="#myModal" href="#" class="card-button"> Enroll Now</a>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
             <!-- online slider end -->
@@ -680,91 +1030,142 @@
             </section> 
 
 
-            <section class="dtr-section dtr-pt-100 dtr-pb-100 bg_background">
+            <!-- ============== youtube video here ====================== -->
+            
+            <!-- ============== youtube video here end ================== -->
+ 
+
+
+            <section class="dtr-section dtr-pt-50 dtr-pb-50 bg_background">
                 <div class="container">
                     <div class="dtr-styled-heading text-center">
-                        <h2> Success Stories That Inspire! Hear from Our Students! </h2>
+                        <h2>Praised by Media</h2> 
                     </div>
-
                     <div class="row">
-                        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-                            <div class="card shadow-sm">
-                                <div class="card-body p-lg-7">
-                                    <div class="m-auto">
-                                        <a class="bg-dark">
-                                            <iframe width="100%" height="265px" src="https://www.youtube.com/embed/4rAm-xqYdPM?rel=0&autoplay=0" allow="autoplay" frameborder="0"></iframe>
-                                        </a>
-                                    </div>
-                                </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/1.webp" alt="BoostMyTalent Press & Media Prtners">
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-                            <div class="card shadow-sm">
-                                <div class="card-body p-lg-7">
-                                    <div class="m-auto">
-                                        <a class="bg-dark">
-                                            <iframe width="100%" height="265px" src="https://www.youtube.com/embed/2--h85ifRfA?rel=0&autoplay=0" allow="autoplay" frameborder="0"></iframe>
-                                        </a>
-                                    </div>
-                                </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/2.webp" alt="BoostMyTalent Press & Media Prtners">
                             </div>
-                        </div> 
-                        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-                            <div class="card shadow-sm">
-                                <div class="card-body p-lg-7">
-                                    <div class="m-auto">
-                                        <a class="bg-dark">
-                                            <iframe width="100%" height="265px" src="https://www.youtube.com/embed/uQIaNEnxozw?rel=0&autoplay=0" allow="autoplay" frameborder="0"></iframe>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/3.webp" alt="BoostMyTalent Press & Media Prtners">
                             </div>
-                        </div> 
-                        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-                            <div class="card shadow-sm">
-                                <div class="card-body p-lg-7">
-                                    <div class="m-auto">
-                                        <a class="bg-dark">
-                                            <iframe width="100%" height="265px" src="https://www.youtube.com/embed/n5lxP5lTNjk?rel=0&autoplay=0" allow="autoplay" frameborder="0"></iframe>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/4.webp" alt="BoostMyTalent Press & Media Prtners">
                             </div>
-                        </div> 
-                        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-                            <div class="card shadow-sm">
-                                <div class="card-body p-lg-7">
-                                    <div class="m-auto">
-                                        <a class="bg-dark">
-                                            <iframe width="100%" height="265px" src="https://www.youtube.com/embed/mbHi_9tSwD8?rel=0&autoplay=0" allow="autoplay" frameborder="0"></iframe>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/5.webp" alt="BoostMyTalent Press & Media Prtners">
                             </div>
-                        </div>   
-                        <div class="col-sm-12 col-md-3 col-lg-3 mb-2">
-                            <div class="card shadow-sm">
-                                <div class="card-body p-lg-7">
-                                    <div class="m-auto">
-                                        <a class="bg-dark">
-                                            <iframe width="100%" height="265px" src="https://www.youtube.com/embed/bogx3Kw3Rzw?rel=0&autoplay=0" allow="autoplay" frameborder="0"></iframe>
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/6.webp" alt="BoostMyTalent Press & Media Prtners">
                             </div>
-                        </div> 
-                    </div>  
-                    
-                </div> 
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/7.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/8.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/9.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/10.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/11.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/15.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/16.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <div class="dtr-post-img dtr-p-10">
+                                <img src="assets/img/press-media/17.webp" alt="BoostMyTalent Press & Media Prtners">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
+            <section class="dtr-section dtr-pb-50 dtr-mt-50">
+                <div class="container">
+                    <div class="dtr-cta-box bg-red color-white d-flex justify-content-center"> 
+                        <div class="dtr-cta-box-right">
+                            <div class="dtr-cta-box-icon border-white-muted color-red"></div>
+                            <p>Call us for Professional, flexible and free Counseling</p>
+                            <a href="javascript:void();"
+                                data-toggle="modal"
+                                data-target="#myModal"
+                                class="dtr-btn btn-theme1 dtr-scroll-link dtr-mt-10">Enquire Now</a>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+
+
+            <section class="dtr-section dtr-pb-50 bg_background dtr-pt-50">
+                <div class="container">
+                    <div class="dtr-styled-heading text-center">
+                        <h2>MBA Stats 2021 to 2025</h2> 
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="img-contain">
+                                <img src="assets/img/graph/graph-1.jpg" alt="" class="img-thumbnail">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="img-contain">
+                                <img src="assets/img/graph/graph-2.jpg" alt="" class="img-thumbnail">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="img-contain">
+                                <img src="assets/img/graph/graph-3.jpg" alt="" class="img-thumbnail">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+ 
+ 
 
         <section class="dtr-section dtr-py-100">
             <div class="container">
                 <div class="dtr-styled-heading text-center">
                     <h2>Frequently Asked Questions</h2>
                 </div>
-                <div class="row dtr-p-10">
+                <div class="dtr-p-10">
                     <div class="dtr-mt-30">
                         <div class="dtr-accordion accordion"
                             id="accord-index1">
@@ -1087,132 +1488,6 @@
 
 
 
-        <section class="dtr-section dtr-pb-50 bg_background dtr-pt-50">
-            <div class="container">
-                <div class="dtr-styled-heading text-center">
-                    <h2>MBA Stats 2021 to 2025</h2> 
-                </div>
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div class="img-contain">
-                            <img src="assets/img/graph/graph-1.jpg" alt="" class="img-thumbnail">
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="img-contain">
-                            <img src="assets/img/graph/graph-2.jpg" alt="" class="img-thumbnail">
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="img-contain">
-                            <img src="assets/img/graph/graph-3.jpg" alt="" class="img-thumbnail">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <section class="dtr-section dtr-pb-50 dtr-mt-50">
-            <div class="container">
-                <div class="dtr-cta-box bg-red color-white d-flex justify-content-center"> 
-                    <div class="dtr-cta-box-right">
-                        <div class="dtr-cta-box-icon border-white-muted color-red"></div>
-                        <p>Call us for Professional, flexible and free Counseling</p>
-                        <a href="javascript:void();"
-                            data-toggle="modal"
-                            data-target="#myModal"
-                            class="dtr-btn btn-theme1 dtr-scroll-link dtr-mt-10">Enquire Now</a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <section class="dtr-section dtr-pt-50 dtr-pb-50 bg_background">
-            <div class="container">
-                <div class="dtr-styled-heading text-center">
-                    <h2>Praised by Media</h2> 
-                </div>
-                <div class="row">
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/1.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/2.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/3.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/4.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/5.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/6.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/7.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/8.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/9.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/10.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/11.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/15.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/16.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3">
-                        <div class="dtr-post-img dtr-p-10">
-                            <img src="assets/img/press-media/17.webp" alt="BoostMyTalent Press & Media Prtners">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
         <footer id="dtr-footer">
             <div class="dtr-footer-main">
                 <div class="container">
@@ -1221,26 +1496,10 @@
                             <img style="width: 200px;"
                                 src="assets/img/logo/logo.png"
                                 alt="logo" />
-                            <p class="color-white-muted">
+                            <p class="color-white-muted small">
                                 We provide Free, Expert guidance to help you identify the best-suited Regular Colleges,
-                                Online Certification Programs, Study Abroad Options, and Online Universities as per your
-                                requirements.
-                            </p>
-                            <div class="dtr-social-small d-flex justify-content-center dtr-mt-10 text-center">
-                                <ul class="dtr-social dtr-social-list text-left">
-                                    <li><a href="javascript:void();"
-                                            class="dtr-instagram"
-                                            target="_blank"
-                                            title="instagram"></a></li>
-                                    <li><a href="javascript:void();"
-                                            class="dtr-facebook"
-                                            target="_blank"
-                                            title="facebook"></a></li>
-                                    <li><a href="javascript:void();"
-                                            class="dtr-google"
-                                            target="_blank" title="google"></a></li>
-                                </ul>
-                            </div>
+                                Online Certification Programs, Study Abroad Options, and Online Universities as per your requirements.
+                            </p> 
                         </div>
                     </div>
                 </div>
@@ -1249,8 +1508,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center text-size-sm">
-                            <p> Copyright © All rights reserved <a href="http://boostmytalent.com/">Boostmytalent</a>
-                            </p>
+                            <p> Copyright © All rights reserved <a href="http://boostmytalent.com/">Boostmytalent</a></p>
                         </div>
                     </div>
                 </div>
@@ -1482,6 +1740,7 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/swiper-slider.js"></script>
 </body>
 
 </html>
