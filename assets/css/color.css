@@ -95,7 +95,7 @@ label, input, select, textarea, input[type="text"], input[type="email"], input[t
 select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"] { background-color: #fff; }
 select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"] { border-color: #bdc4df; }
 textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="search"]:focus { border-color: #1e38a7; outline: none; }
-.dtr-form .error { color: var(--theme-color); }
+.dtr-form .error { color: red; }
 /* placeholder */
 ::-webkit-input-placeholder {
 color: rgba(25,28,47,0.35) !important;

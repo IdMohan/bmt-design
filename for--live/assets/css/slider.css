@@ -13,7 +13,7 @@
 .customer-logos .slide {
   display: block;
   margin-right: 20px;
-  animation: slideAnimation 25s linear infinite; 
+  /* animation: slideAnimation 25s linear infinite;  */
 }
 .customer-logos .slide >img{ 
   width: 200px !important;  
@@ -75,10 +75,8 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   /* height: 415px !important; */
-  height: 355px !important;
-  width: 290px !important;
+  /* height: 355px !important; */
 }
-
 .regular-college-slider .card button{margin-bottom: 25px !important;}
 
 .slider-container>.slider .card img {
@@ -127,11 +125,95 @@
   margin: 10px;
 }
 .top-recruiter img {
-  width: 100%;
+  width: 220px;
   height: 150px;
   object-fit: contain;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 30px;
   background: #fff;
   border-radius: 10px;
+}
+
+
+/* ======================== */
+
+/* Timeline Container */
+.timeline-container {
+  position: relative;
+  margin: 0 auto; 
+  height: 100%;  
+}
+
+.timeline-container .row{border-bottom: 1px solid #ffffff0b; padding: 0px 0px 40px 0px;}
+.timeline-container .row img{
+   
+}
+
+/* Timeline line using ::before */
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease;
+}
+
+/* Timeline fill effect using ::after */
+.timeline-container::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  background-color: var(--fill-color);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0%; /* Initially 0% height, grows on scroll */
+  transition: height 0.3s ease;
+}
+
+/* Timeline Icon */
+.timeline-icon {
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  transition: background-color 0.3s ease;
+}
+
+/* Hide the timeline on mobile */
+@media (max-width: 1000px) {
+  .timeline-container::before, .timeline-container::after, .timeline-icon {
+      display: none;
+  }
+}
+
+.timeline-content {
+  text-align: center; padding: 15px 0px;
+}
+
+.timeline-content >h3{ font-size: 24px; margin-bottom: 0px; }
+
+
+
+
+/* / custom img contain */
+.img-contain>img{
+  width: 500px;
+  height: 285px;
+  object-fit: contain;
 }
